@@ -1,3 +1,4 @@
+# Beats 100% Runtime
 class Solution:
     def intToRoman(self, num: int) -> str:
         num = [int(digit) for digit in str(num)][::-1] # Convert num to little endian
